@@ -10,7 +10,7 @@ namespace Programs
     {
         public static void MissingNumberExercise()
         {
-            int[] arr = { 17,19,20,21,22,23 };
+            int[] arr = { 17, 19, 20, 21, 22, 23 };
 
             int min = arr[0];
             int max = arr[0];
@@ -26,7 +26,7 @@ namespace Programs
             Console.WriteLine($"Max {max}");
 
             //Expected sum through formula
-            int ExpectedSum = (max - min + 1) * (min + max) / 2;
+            int ExpectedSum = (max * (max + 1) / 2) - (min * (min - 1) / 2);
 
             //Actual Sum calculated
             int ActualSum = 0;

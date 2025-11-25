@@ -1,10 +1,13 @@
 ﻿using Programs;
+using Programs.C__Programs;
 
 class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Find Missing Number form Array");
-        FindMissingNumberFromArray.MissingNumberExercise();
+
+        //FindMissingNumberFromArray.MissingNumberExercise();
+
+        StringPalindrome.CheckPalindrome();
     }
 }
