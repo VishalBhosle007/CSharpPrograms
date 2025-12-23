@@ -10,16 +10,34 @@ namespace Programs.CSharpPrograms.Pattern_Programs
     {
         public string Name => "Print Right-angled triangle";
 
+        /*
+                    *
+                   **
+                  ***
+                 ****
+                *****
+
+        */
         public void Run()
         {
-            int n = 5;
+            int rows = 5;
 
-            for (int i = 0; i <= n; i++)
+
+            for (int i = 1; i <= rows; i++)
             {
-                for (int j = 0; j < i; j++)
+                // Print spaces
+                for (int space = rows - i; space > 0; space--)
+                {
+                    Console.Write(" ");
+                }
+
+                // Print stars
+                for (int star = 1; star <= i; star++)
                 {
                     Console.Write("*");
                 }
+
+                // Print new line
                 Console.WriteLine();
             }
         }
