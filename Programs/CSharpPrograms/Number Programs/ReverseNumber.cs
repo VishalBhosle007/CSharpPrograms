@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Programs.CSharpPrograms.String_Programs
+namespace Programs.CSharpPrograms
 {
     public class ReverseNumber : IProgram
     {
@@ -19,7 +19,7 @@ namespace Programs.CSharpPrograms.String_Programs
             while (input > 0)
             {
                 int digit = input % 10;
-                reversedNumber = (reversedNumber * 10) + digit;
+                reversedNumber = reversedNumber * 10 + digit;
                 input /= 10;
             }
 
