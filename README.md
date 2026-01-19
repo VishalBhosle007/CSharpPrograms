@@ -1,4 +1,4 @@
-# 📘 Programs – C# Interview Programs (Console Application)
+# 📘 CSharpInterviewPrograms – C# Interview Programs (Console Application)
 
 ## 🔹 Overview
 This repository contains a collection of **commonly asked C# interview programs**, implemented using **Console Applications** with a **clean, scalable architecture**.
