@@ -13,17 +13,20 @@ New programs are added **regularly** as part of daily practice.
 ---
 
 ## 🏗️ Project Structure
+
+```text
 Programs
 │
-└───CSharpPrograms
-│
-├── ArrayPrograms
-├── StringPrograms
-├── NumberPrograms
-├── PatternPrograms
-│
-├── IProgram.cs
+└── CSharpPrograms
+    │
+    ├── ArrayPrograms
+    ├── StringPrograms
+    ├── NumberPrograms
+    ├── PatternPrograms
+    │
+    ├── IProgram.cs
 └── Program.cs
+```
 
 
 ### 🔸 Structure Explanation
